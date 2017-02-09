@@ -1,0 +1,48 @@
+/*PALHETA FONTE*/
+.txt-verde{
+	color: #a8d603;
+}
+.txt-branco{
+	color: #fafcf4;
+}
+.txt-bege{
+	color: #ffedd6;
+}
+.txt-vermelho{
+	color: #c61212;
+}
+.txt-azulclaro{
+	color: #39caec;
+}
+.txt-ciano{
+	color: #73b9ca;
+}
+.txt-cinza{
+	color: #6c6b6b;
+}
+.txt-cinzaclaro{
+	color: #c2c2c2;
+}
+.txt-preto{
+	color: #272423;
+}
+
+/*PALHETA FUNDO*/
+.bg-verde{
+	background-color: #a8d603;
+}
+.bg-branco{
+	background-color: #ffffff;
+}
+.bg-branco2{
+	background-color: #fafafa: 
+}
+.bg-branco3{
+	background-color: #ececec;
+}
+.bg-ciano{
+	background-color: #73b9ca;
+}
+.bg-cinzaclaro{
+	background-color: #e4e1e1;
+}
