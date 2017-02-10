@@ -1,0 +1,76 @@
+/*Palheta*/
+@import url("cores.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html,body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.left {float: left;}
+.right{float: right;}
+.flex{display: flex;justify-content: center;}
+.bold{font-weight: bold;}
+.align-right{text-align: right;}
+
+/*Social*/
+.social{
+	border-top-style: solid;
+	border-top-color: #ececec;
+	border-top-width: 8px;
+	width: 100%;
+	height: 26px;
+	max-height: 26px;
+	font-size: 12px;
+	padding-top: 20px;
+}
+.centro{
+	max-width: calc(1000px - 20px);
+	width: calc(100% - 20px);
+	margin: auto;
+	flex-wrap: wrap;
+    align-content: center;
+    padding: 0 10px 0 10px;
+}
+.icone{
+	margin-top: -5px;
+	padding-left: 5px;
+}
+.menuarea{
+	height: 193px;
+}
+.logoarea{
+	margin-top: 42px;
+	max-width: calc(1000px / 3);
+	width: calc(100% / 3);
+}
+.logoarea2{
+	margin-top: 42px;
+	margin-left: 30px;
+	max-width: calc(1000px / 3 - 30px);
+	width: calc(100% / 3 - 30px);
+}
+.apple2{
+	width: 236px;
+	height: 62px;
+}
+.avaliacao{
+	width: 145px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+
+@media only screen and (max-width: 500px){
+	.some500{
+		display: none;
+	}
+}
+@media only screen and (max-width: 750px){
+	.some750{
+		display: none;
+	}
+	.logoarea{
+		width: 50%;
+	}
+}
